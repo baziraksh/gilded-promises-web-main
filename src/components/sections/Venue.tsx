@@ -44,7 +44,7 @@ export function Venue() {
               <p className="mt-4 text-lg text-amber-50/90">
                 Balighat, Puri,
                 <br />
-                Odisha 752002, India
+                Odisha, India
               </p>
               <p className="mt-2 text-sm text-amber-200/60">
                 19.825408° N, 85.847781° E

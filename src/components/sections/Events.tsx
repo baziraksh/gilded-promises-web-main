@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import { Divider } from "../Divider";
 
 const events = [
-  { icon: "🌼", name: "Haldi", date: "2 Jul 2026", time: "10:00 AM", desc: "A golden bath of blessings" },
-  { icon: "🌿", name: "Mehendi", date: "2 Jul 2026", time: "4:00 PM", desc: "Henna, laughter, and music" },
-  { icon: "🎶", name: "Sangeet", date: "2 Jul 2026", time: "7:00 PM", desc: "An evening of dance & melodies" },
-  { icon: "🔥", name: "Wedding Ceremony", date: "3 Jul 2026", time: "8:00 AM", desc: "Saat Phere around the sacred fire" },
-  { icon: "✨", name: "Reception", date: "3 Jul 2026", time: "7:00 PM", desc: "A grand celebration awaits" },
+  { icon: "🌼", name: "Haldi", date: "2 July 2026", time: "7:00 PM", desc: "A golden bath of blessings" },
+  // { icon: "🌿", name: "Mehendi", date: "2 July 2026", time: "7:30 PM", desc: "Henna, laughter, and music" },
+  { icon: "🎶", name: "Sangeet", date: "2 July 2026", time: "8:00 PM", desc: "An evening of dance & melodies" },
+  { icon: "🔥", name: "Wedding Ceremony", date: "3 July 2026", time: "8:30 PM", desc: "Saat Phere around the sacred fire" },
+  { icon: "✨", name: "Reception", date: "5 July 2026", time: "1:00 PM", desc: "A grand celebration awaits" },
 ];
 
 export function Events() {

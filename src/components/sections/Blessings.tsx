@@ -40,7 +40,7 @@ export function Blessings() {
               Pradhan Parivaar
             </h3>
             <p className="mt-4 text-amber-50/85">
-              Mr. & Mrs. Pradhan
+              Mr. Jogeswar Pradhan & Mrs. Tuni Pradhan
               <br />
               <span className="text-sm text-amber-100/60">Parents of Rajesh</span>
             </p>
