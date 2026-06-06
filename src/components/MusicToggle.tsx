@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 // Soft sitar/temple bell ambient loop (royalty-free CDN sample)
 const TRACK =
   // "https://cdn.pixabay.com/download/audio/2022/03/15/audio_8e3a5d7ce4.mp3?filename=indian-meditation-music-22167.mp3";
-  "song.mpeg";
+  "/song.mpeg";
 
 export function MusicToggle({ autoStart }: { autoStart: boolean }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
