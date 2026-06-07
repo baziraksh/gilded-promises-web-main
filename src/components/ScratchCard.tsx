@@ -75,7 +75,6 @@ export function ScratchCard() {
             3 · 7 · 2026
           </div>
           <div className="mt-2 text-sm tracking-[0.3em] text-amber-100/80">
-            12 DECEMBER 2026
           </div>
         </div>
 
