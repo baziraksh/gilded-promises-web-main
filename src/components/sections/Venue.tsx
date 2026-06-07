@@ -36,18 +36,18 @@ export function Venue() {
           <div className="grid md:grid-cols-2">
             <div className="flex flex-col justify-center p-8 sm:p-12">
               <div className="text-xs uppercase tracking-[0.4em] text-amber-300/70">
-                Wedding Location
+                Reception Location
               </div>
               <h3 className="font-script text-gold-gradient mt-3 text-4xl sm:text-5xl">
-                Balighat
+                Banar
               </h3>
               <p className="mt-4 text-lg text-amber-50/90">
-                Balighat, Puri,
+                Banar, Angul,
                 <br />
                 Odisha, India
               </p>
               <p className="mt-2 text-sm text-amber-200/60">
-                19.825408° N, 85.847781° E
+                21.333129° N, 85.177262° E
               </p>
 
               <a
