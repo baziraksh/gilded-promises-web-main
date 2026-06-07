@@ -106,7 +106,7 @@ export function Venue() {
               </h3>
 
               <p className="mt-4 text-lg text-amber-50/90">
-                Banar, Angul,
+                Banar, Pallahara,
                 <br />
                 Odisha, India
               </p>
