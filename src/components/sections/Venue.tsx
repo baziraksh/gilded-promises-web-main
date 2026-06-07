@@ -84,6 +84,50 @@ export function Venue() {
             </div>
           </div>
         </motion.div>
+        <div className="grid md:grid-cols-2 mt-10">
+  <div className="flex flex-col justify-center p-8 sm:p-12">
+    <div className="text-xs uppercase tracking-[0.4em] text-amber-300/70">
+      Wedding Location
+    </div>
+
+    <h3 className="font-script text-gold-gradient mt-3 text-4xl sm:text-5xl">
+      Puri
+    </h3>
+
+    <p className="mt-4 text-lg text-amber-50/90">
+      Puri,
+      <br />
+      Odisha, India
+    </p>
+
+    <p className="mt-2 text-sm text-amber-200/60">
+      19.825652° N, 85.847693° E
+    </p>
+
+    <a
+      href="https://maps.app.goo.gl/ZD38Hcrdh5jAqgbN9"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-8 inline-flex w-fit items-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-amber-300 px-6 py-3 text-sm font-medium uppercase tracking-[0.2em] text-rose-950 shadow-lg shadow-amber-500/30 transition hover:scale-105 hover:shadow-amber-400/50"
+    >
+      Navigate Now
+      <span>→</span>
+    </a>
+  </div>
+
+  <div className="relative aspect-square md:aspect-auto">
+    <iframe
+      title="Wedding location map"
+      src="https://www.google.com/maps?q=19.825652,85.847693&z=15&output=embed"
+      className="absolute inset-0 h-full w-full"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      style={{ filter: "saturate(1.1) contrast(0.95)" }}
+    />
+
+    <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-amber-400/30" />
+  </div>
+</div>
       </div>
     </section>
   );
