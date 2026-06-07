@@ -1,6 +1,6 @@
 export function Divider() {
   return (
-    <div className="my-12 flex items-center justify-center gap-4">
+    <div className="my-4 flex items-center justify-center gap-4">
       <div className="h-px w-24 bg-gradient-to-r from-transparent via-amber-400/60 to-amber-400/60" />
       <svg width="40" height="40" viewBox="0 0 40 40" className="text-amber-400">
         <g fill="none" stroke="currentColor" strokeWidth="1">
