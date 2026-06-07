@@ -12,7 +12,7 @@ export function Gallery() {
   const [idx, setIdx] = useState(0);
 
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative py-8 sm:py-12">
       <div className="mx-auto max-w-5xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
