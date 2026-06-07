@@ -40,7 +40,7 @@ export function Blessings() {
               Pradhan Parivaar
             </h3>
             <p className="mt-4 text-amber-50/85">
-  <span className="relative inline-block ml-3 mr-3 text-white">
+  <span className="relative inline-block mr-3 text-white -ml-4">
     ✓
     <span
       className="absolute h-[4px] w-[4px] rounded-full bg-white"
