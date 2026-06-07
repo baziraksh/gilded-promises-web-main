@@ -44,7 +44,7 @@ export function Blessings() {
     className="relative inline-block text-white"
     style={{
       position: "absolute",
-      left: "120px", // is value ko badhao ya ghatao
+      left: "60px", // is value ko badhao ya ghatao
     }}
   >
     ✓
