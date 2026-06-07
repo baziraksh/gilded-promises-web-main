@@ -40,7 +40,13 @@ export function Blessings() {
               Pradhan Parivaar
             </h3>
             <p className="mt-4 text-amber-50/85">
-  <span className="relative inline-block mr-3 text-white -ml-4">
+  <span
+    className="relative inline-block text-white"
+    style={{
+      position: "absolute",
+      left: "120px", // is value ko badhao ya ghatao
+    }}
+  >
     ✓
     <span
       className="absolute h-[4px] w-[4px] rounded-full bg-white"
