@@ -1,9 +1,14 @@
 import { motion } from "framer-motion";
 import { Divider } from "../Divider";
 
-const LAT = 19.825408;
-const LNG = 85.847781;
-const MAPS_URL = `https://www.google.com/maps/dir/?api=1&destination=${LAT},${LNG}`;
+const LAT = 21.342393;
+const LNG = 85.170027;
+
+// Navigate button ke liye exact Google Maps link
+const MAPS_URL =
+  "https://maps.app.goo.gl/ZdLGCSambUc1QUvv5?g_st=ac";
+
+// Embedded map ke liye coordinates
 const EMBED = `https://www.google.com/maps?q=${LAT},${LNG}&z=15&output=embed`;
 
 export function Venue() {
@@ -19,6 +24,7 @@ export function Venue() {
           <div className="text-xs uppercase tracking-[0.5em] text-amber-300/70">
             With Love, Join Us At
           </div>
+
           <h2 className="font-script text-gold-gradient mt-3 text-5xl sm:text-7xl">
             The Venue
           </h2>
@@ -38,16 +44,19 @@ export function Venue() {
               <div className="text-xs uppercase tracking-[0.4em] text-amber-300/70">
                 Reception Location
               </div>
+
               <h3 className="font-script text-gold-gradient mt-3 text-4xl sm:text-5xl">
                 Banar
               </h3>
+
               <p className="mt-4 text-lg text-amber-50/90">
                 Banar, Angul,
                 <br />
                 Odisha, India
               </p>
+
               <p className="mt-2 text-sm text-amber-200/60">
-                21.333129° N, 85.177262° E
+                21.342393° N, 85.170027° E
               </p>
 
               <a
@@ -70,6 +79,7 @@ export function Venue() {
                 referrerPolicy="no-referrer-when-downgrade"
                 style={{ filter: "saturate(1.1) contrast(0.95)" }}
               />
+
               <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-amber-400/30" />
             </div>
           </div>
