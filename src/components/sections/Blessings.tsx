@@ -45,7 +45,7 @@ export function Blessings() {
     <span
       className="absolute h-[4px] w-[4px] rounded-full bg-white"
       style={{
-        left: "5px",
+        left: "3px",
         top: "6px",
       }}
     />
