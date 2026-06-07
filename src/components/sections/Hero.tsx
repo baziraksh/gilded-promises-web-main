@@ -46,7 +46,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.6, duration: 1.2 }}
-          className="text-gold-gradient text-6xl font-light tracking-wide sm:text-8xl md:text-9xl"
+          className="text-gold-gradient text-5xl font-light tracking-wide sm:text-7xl md:text-8xl"
           // style={{ fontFamily: "'Lucida Handwriting', cursive" }}
           style={{ fontFamily: "'French Script Mt', cursive" }}
         >
