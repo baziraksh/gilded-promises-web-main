@@ -4,7 +4,7 @@ import { Diya } from "../Diya";
 
 export function Blessings() {
   return (
-    <section className="relative overflow-hidden py-24 sm:py-32">
+    <section className="relative overflow-hidden pt-8 pb-16 sm:pt-12 sm:pb-20">
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/4 top-1/3 h-96 w-96 rounded-full bg-amber-500/20 blur-[120px]" />
         <div className="absolute right-1/4 bottom-1/3 h-96 w-96 rounded-full bg-rose-500/15 blur-[120px]" />
