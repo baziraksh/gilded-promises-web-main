@@ -40,10 +40,16 @@ export function Blessings() {
               Pradhan Parivaar
             </h3>
             <p className="mt-4 text-amber-50/85">
-              Mr. Jogeswar Pradhan & Mrs. Tuni Pradhan
-              <br />
-              <span className="text-sm text-amber-100/60">Parents of Rajesh</span>
-            </p>
+  <span className="relative inline-block mr-2 text-amber-300">
+    ✓
+    <span className="absolute left-[7px] top-[7px] h-[5px] w-[5px] rounded-full bg-amber-300"></span>
+  </span>
+  Mr. Jogeswar Pradhan & Mrs. Tuni Pradhan
+  <br />
+  <span className="text-sm text-amber-100/60">
+    Parents of Rajesh
+  </span>
+</p>
           </motion.div>
 
           <motion.div
